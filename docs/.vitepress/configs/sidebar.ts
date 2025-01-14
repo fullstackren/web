@@ -6,43 +6,42 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
       items: [
         { text: '前端框架', collapsed: false,
           items: [
-            { text: '前端框架', link: '/web/framework' },
-            { text: 'React', link: '/web/framework/react' },
-            { text: 'Vue2', link: '/web/framework/vue2' },
-            { text: 'Vue3', link: '/web/framework/vue3' },
-            { text: 'Svelte', link: '/web/framework/svelte' },
-            { text: 'Angular', link: '/web/framework/angular' },
-            { text: 'Solid', link: '/web/framework/solid' },
+            { text: 'React', link: '/fe/react' },
+            { text: 'Vue2', link: '/fe/vue2' },
+            { text: 'Vue3', link: '/fe/vue3' },
+            { text: 'Svelte', link: '/fe/svelte' },
+            { text: 'Angular', link: '/fe/angular' },
+            { text: 'Solid', link: '/fe/solid' },
           ]
         },
         { text: 'ES6', collapsed: false,
           items: [
-            { text: 'ES6', link: '/web/es6' },
+            { text: 'ES6', link: '/fe/es6' },
           ]
         },
         { text: 'JavaScript', collapsed: false,
           items: [
-            { text: '总览', link: '/web/javascript' },
-            { text: '基础知识', link: '/web/javascript/basic' },
+            { text: '总览', link: '/fe/javascript' },
+            { text: '基础知识', link: '/fe/javascript/basic' },
           ]
         },
-        { text: 'HTML', link: '/web/html' },
+        { text: 'HTML', link: '/fe/html' },
         { text: 'CSS', collapsed: false,
           items: [
-            { text: '总览', link: '/web/css' },
-            { text: 'CSS', link: '/web/css/css' },
-            { text: 'Less', link: '/web/css/less' },
-            { text: 'Sass', link: '/web/css/sass' },
+            { text: '总览', link: '/fe/css' },
+            { text: 'CSS', link: '/fe/css/css' },
+            { text: 'Less', link: '/fe/css/less' },
+            { text: 'Sass', link: '/fe/css/sass' },
           ]
         },
         { text: 'Web API', collapsed: false,
           items: [
-            { text: '总览', link: '/web/web-api' },
+            { text: '总览', link: '/fe/web-api' },
           ]
         },
         { text: 'TypeScript', collapsed: false,
           items: [
-            { text: '总览', link: '/web/typescript' },
+            { text: '总览', link: '/fe/typescript' },
           ]
         },
       ]
