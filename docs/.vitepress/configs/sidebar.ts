@@ -68,5 +68,18 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         { text: 'rspack', link: '/engineering/rspack' },
       ]
     }
+  ],
+  '/devops/': [
+    {
+      text: '运维', link: '/devops/',
+      items: [
+        { text: 'Git',
+          items: [
+            { text: 'Git', link: '/devops/git' },
+            { text: 'Git常用命令', link: '/devops/git/git-command' },
+          ]
+        },
+      ]
+    }
   ]
 }
