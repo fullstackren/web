@@ -76,9 +76,9 @@ export default defineConfig({
     },
     comment: {
       repo: 'fullstackren/web',
-      repoId: 'R_kgDOLUQ83Q',
+      repoId: 'R_kgDONUDWyg',
       category: 'Announcements',
-      categoryId: 'DIC_kwDOLUQ83c4Clk1a',
+      categoryId: 'DIC_kwDONUDWys4Cl97E',
     },
     docFooter: {
       prev: '上一篇',
