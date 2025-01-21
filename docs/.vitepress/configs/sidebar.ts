@@ -2,9 +2,9 @@ import type { DefaultTheme } from 'vitepress'
 
 export const sidebar: DefaultTheme.Config['sidebar'] = {
   '/fe/html/': [
-    { text: 'Web 开发者路线', link: '/fe',
+    { text: 'Web 开发者路线', link: '/fe', collapsed: false,
       items: [
-        { text: 'HTML', link: '/fe/html/' },
+        { text: 'HTML 开发指南', link: '/fe/html/' },
         { text: 'HTML 元素', link: '/fe/html/element' },
         { text: 'HTML 全局属性', link: '/fe/html/global-attributes' },
         { text: 'HTML 属性', link: '/fe/html/attributes' },
