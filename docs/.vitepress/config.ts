@@ -85,7 +85,7 @@ export default defineConfig({
       next: '下一篇',
     },
     visitor: {
-      badgeId: "fullstackren.fullstackren.github.io"
+      badgeId: "fullstackren.web"
     },
     returnToTopLabel: '回到顶部',
     sidebarMenuLabel: '菜单',
