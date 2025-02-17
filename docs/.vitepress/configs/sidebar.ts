@@ -6,6 +6,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
       items: [
         { text: 'JavaScript', link: '/fe/javascript' },
         { text: 'ES6', link: '/fe/javascript/es6' },
+        { text: '代码防炸秘籍：try/catch/finally', link: '/fe/javascript/try-catch-finally' },
       ]
     },
     { text: 'Web 开发者路线', link: '/fe' },
